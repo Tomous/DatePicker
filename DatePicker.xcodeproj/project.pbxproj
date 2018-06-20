@@ -17,6 +17,7 @@
 		80928CC020DA03C9000BC39A /* DatePickerUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 80928CBF20DA03C9000BC39A /* DatePickerUITests.m */; };
 		80928CCF20DA05A3000BC39A /* DCDatePickerView.m in Sources */ = {isa = PBXBuildFile; fileRef = 80928CCE20DA05A3000BC39A /* DCDatePickerView.m */; };
 		80928CD220DA05E1000BC39A /* UIView+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = 80928CD020DA05E1000BC39A /* UIView+Extension.m */; };
+		80928CD520DA2AF3000BC39A /* datePicker.gif in Resources */ = {isa = PBXBuildFile; fileRef = 80928CD420DA2AF3000BC39A /* datePicker.gif */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -58,6 +59,7 @@
 		80928CD020DA05E1000BC39A /* UIView+Extension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Extension.m"; sourceTree = "<group>"; };
 		80928CD120DA05E1000BC39A /* UIView+Extension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Extension.h"; sourceTree = "<group>"; };
 		80928CD320DA0788000BC39A /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		80928CD420DA2AF3000BC39A /* datePicker.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = datePicker.gif; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -116,6 +118,7 @@
 				80928CCE20DA05A3000BC39A /* DCDatePickerView.m */,
 				80928CD120DA05E1000BC39A /* UIView+Extension.h */,
 				80928CD020DA05E1000BC39A /* UIView+Extension.m */,
+				80928CD420DA2AF3000BC39A /* datePicker.gif */,
 				80928CA120DA03C7000BC39A /* Main.storyboard */,
 				80928CA420DA03C9000BC39A /* Assets.xcassets */,
 				80928CA620DA03C9000BC39A /* LaunchScreen.storyboard */,
@@ -249,6 +252,7 @@
 			files = (
 				80928CA820DA03C9000BC39A /* LaunchScreen.storyboard in Resources */,
 				80928CA520DA03C9000BC39A /* Assets.xcassets in Resources */,
+				80928CD520DA2AF3000BC39A /* datePicker.gif in Resources */,
 				80928CA320DA03C7000BC39A /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
