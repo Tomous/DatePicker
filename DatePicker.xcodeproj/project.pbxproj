@@ -15,6 +15,8 @@
 		80928CAB20DA03C9000BC39A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 80928CAA20DA03C9000BC39A /* main.m */; };
 		80928CB520DA03C9000BC39A /* DatePickerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 80928CB420DA03C9000BC39A /* DatePickerTests.m */; };
 		80928CC020DA03C9000BC39A /* DatePickerUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 80928CBF20DA03C9000BC39A /* DatePickerUITests.m */; };
+		80928CCF20DA05A3000BC39A /* DCDatePickerView.m in Sources */ = {isa = PBXBuildFile; fileRef = 80928CCE20DA05A3000BC39A /* DCDatePickerView.m */; };
+		80928CD220DA05E1000BC39A /* UIView+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = 80928CD020DA05E1000BC39A /* UIView+Extension.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +53,11 @@
 		80928CBB20DA03C9000BC39A /* DatePickerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DatePickerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		80928CBF20DA03C9000BC39A /* DatePickerUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DatePickerUITests.m; sourceTree = "<group>"; };
 		80928CC120DA03C9000BC39A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		80928CCD20DA05A3000BC39A /* DCDatePickerView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DCDatePickerView.h; sourceTree = "<group>"; };
+		80928CCE20DA05A3000BC39A /* DCDatePickerView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DCDatePickerView.m; sourceTree = "<group>"; };
+		80928CD020DA05E1000BC39A /* UIView+Extension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Extension.m"; sourceTree = "<group>"; };
+		80928CD120DA05E1000BC39A /* UIView+Extension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Extension.h"; sourceTree = "<group>"; };
+		80928CD320DA0788000BC39A /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,11 +112,16 @@
 				80928C9C20DA03C7000BC39A /* AppDelegate.m */,
 				80928C9E20DA03C7000BC39A /* ViewController.h */,
 				80928C9F20DA03C7000BC39A /* ViewController.m */,
+				80928CCD20DA05A3000BC39A /* DCDatePickerView.h */,
+				80928CCE20DA05A3000BC39A /* DCDatePickerView.m */,
+				80928CD120DA05E1000BC39A /* UIView+Extension.h */,
+				80928CD020DA05E1000BC39A /* UIView+Extension.m */,
 				80928CA120DA03C7000BC39A /* Main.storyboard */,
 				80928CA420DA03C9000BC39A /* Assets.xcassets */,
 				80928CA620DA03C9000BC39A /* LaunchScreen.storyboard */,
 				80928CA920DA03C9000BC39A /* Info.plist */,
 				80928CAA20DA03C9000BC39A /* main.m */,
+				80928CD320DA0788000BC39A /* PrefixHeader.pch */,
 			);
 			path = DatePicker;
 			sourceTree = "<group>";
@@ -262,9 +274,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				80928CD220DA05E1000BC39A /* UIView+Extension.m in Sources */,
 				80928CA020DA03C7000BC39A /* ViewController.m in Sources */,
 				80928CAB20DA03C9000BC39A /* main.m in Sources */,
 				80928C9D20DA03C7000BC39A /* AppDelegate.m in Sources */,
+				80928CCF20DA05A3000BC39A /* DCDatePickerView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -435,6 +449,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = M73FT4GVKP;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/DatePicker/PrefixHeader.pch";
 				INFOPLIST_FILE = DatePicker/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -452,6 +467,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = M73FT4GVKP;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/DatePicker/PrefixHeader.pch";
 				INFOPLIST_FILE = DatePicker/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
